@@ -10,4 +10,4 @@ keywords = ["postgres", "sql", "pool", "database"]
 
 [dependencies]
 r2d2 = "0.8"
-postgres = "0.19"
+postgres = { git = "https://github.com/aengelas/rust-postgres.git", branch = "prepare_named" }
